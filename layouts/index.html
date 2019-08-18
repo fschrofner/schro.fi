@@ -5,7 +5,7 @@
         {{ partial "script.html" . }}
     </head>
     <body>
-        <div class="grid-container">
+        <div class="grid-container full">
             <div class="grid-x">
                 <div class="cell">
                     <p id="website-title">Florian Schrofner</p>
@@ -13,15 +13,20 @@
             </div>
 
             <div class="grid-x align-center">
-                <div class="cell large-10">
+                {{ $picture := resources.Get "images/me.png"}}
+                <img src="{{$picture.Permalink}}"/>
+            </div>
+
+            <div class="grid-x align-center beige-content-block">
+                <div class="cell large-6">
                     {{ with .Site.GetPage "/intro" }}
                     {{.Content}}
                     {{ end }}
                 </div>
             </div>
 
-            <div class="grid-x align-center">
-                <div class="cell large-10">
+            <div class="grid-x align-center brown-content-block">
+                <div class="cell large-6">
                     {{ with .Site.GetPage "/section" }}
                     {{.Content}}
                     {{ end }}
