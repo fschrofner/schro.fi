@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "css.html" . }}
+    </head>
+    <body>
+        <p id="website-title">Florian Schrofner</p>
+        {{ with .Site.GetPage "/intro" }}
+        {{.Content}}
+        {{ end }}
+
+        {{ with .Site.GetPage "/section" }}
+        {{.Content}}
+        {{ end }}
+    </body>
+</html>

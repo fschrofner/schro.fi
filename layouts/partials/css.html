@@ -1,0 +1,8 @@
+{{ $foundation := "foundation/css/foundation.min.css" | absURL }}
+<link rel="stylesheet" href="{{ $foundation }}">
+
+<!-- convert main sass to css and add it to the html -->
+{{ $sass := resources.Get "sass/main.sass" }}
+{{ $cssOpts := (dict "targetPath" "css/main.css") }}
+{{ $style := $sass | toCSS $cssOpts | minify}}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
