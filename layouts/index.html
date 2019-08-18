@@ -2,15 +2,31 @@
 <html lang="{{ .Site.LanguageCode }}">
     <head>
         {{ partial "css.html" . }}
+        {{ partial "script.html" . }}
     </head>
     <body>
-        <p id="website-title">Florian Schrofner</p>
-        {{ with .Site.GetPage "/intro" }}
-        {{.Content}}
-        {{ end }}
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell">
+                    <p id="website-title">Florian Schrofner</p>
+                </div>
+            </div>
 
-        {{ with .Site.GetPage "/section" }}
-        {{.Content}}
-        {{ end }}
+            <div class="grid-x align-center">
+                <div class="cell large-10">
+                    {{ with .Site.GetPage "/intro" }}
+                    {{.Content}}
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="grid-x align-center">
+                <div class="cell large-10">
+                    {{ with .Site.GetPage "/section" }}
+                    {{.Content}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
     </body>
 </html>
