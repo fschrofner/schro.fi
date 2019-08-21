@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
     <head>
         {{ partial "css.html" . }}
-        {{ partial "script.html" . }}
+        {{ partial "script_prepend.html" . }}
     </head>
     <body>
         <div class="grid-container full">
@@ -13,8 +13,14 @@
             </div>
 
             <div class="grid-x align-center">
+                <!-- scale image for different resolutions -->
                 {{ $picture := resources.Get "images/me.png"}}
-                <img src="{{$picture.Permalink}}"/>
+                {{ $sPicture := $picture.Resize "x100" }}
+                {{ $mPicture := $picture.Resize "x400" }}
+                {{ $lPicture := $picture.Resize "x600" }}
+
+                <!-- <img data-interchange="[{{$sPicture.Permalink}}, small], [{{$mPicture.Permalink}}, medium], [{{$lPicture.Permalink}}, large]"> -->
+                <img data-interchange="[http://localhost:1313/images/me.png, small], [http://localhost:1313/images/me.png, medium], [http://localhost:1313/images/me.png, large]">
             </div>
 
             <div class="grid-x align-center beige-content-block">
@@ -33,5 +39,6 @@
                 </div>
             </div>
         </div>
+        {{ partial "script_append.html" . }}
     </body>
 </html>
