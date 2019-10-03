@@ -13,6 +13,9 @@ $color-light-brown: #D1C1BA
 $color-dark-brown: #52453F
 $color-white: #FFFFFF
 
+$slope-size: 6vw
+$extra-padding: 2vw
+
 body
   font: 100% $regular-font-stack
   color: $color-dark-brown
@@ -35,9 +38,25 @@ h3
   font-weight: bold
   color: $color-white
 
+/* left top, right top, right bottom, left bottom
 .beige-content-block
   background: $color-beige
+  clip-path: polygon(0 0, 100% $slope-size, 100% calc(100% - #{$slope-size}), 0 100%)
+  position: relative
+  top: -$slope-size
+  margin-bottom: -$slope-size
+  padding-top: $slope-size + $extra-padding
+  padding-bottom: $slope-size + $extra-padding
 
 .brown-content-block
   background: $color-light-brown
+  clip-path: polygon(0 6vw, 100% 0, 100% 100%, 0 calc(100% - #{$slope-size}))
+  position: relative
+  top: -$slope-size
+  margin-bottom: -$slope-size
+  padding-top: $slope-size + $extra-padding
+  padding-bottom: $slope-size + $extra-padding
+
+#picture-holder
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slope-size}))
 

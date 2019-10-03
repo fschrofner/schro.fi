@@ -12,15 +12,15 @@
                 </div>
             </div>
 
-            <div class="grid-x align-center">
+            <div class="grid-x align-center" id="picture-holder">
                 <!-- scale image for different resolutions -->
                 {{ $picture := resources.Get "images/me.png"}}
                 {{ $sPicture := $picture.Resize "x100" }}
                 {{ $mPicture := $picture.Resize "x400" }}
                 {{ $lPicture := $picture.Resize "x600" }}
-
                 <!-- <img data-interchange="[{{$sPicture.Permalink}}, small], [{{$mPicture.Permalink}}, medium], [{{$lPicture.Permalink}}, large]"> -->
-                <img data-interchange="[http://localhost:1313/images/me.png, small], [http://localhost:1313/images/me.png, medium], [http://localhost:1313/images/me.png, large]">
+                <!-- <img data-interchange="[http://localhost:1313/images/me.png, small], [http://localhost:1313/images/me.png, medium], [http://localhost:1313/images/me.png, large]"> -->
+                <img src="{{$lPicture.Permalink}}">
             </div>
 
             <div class="grid-x align-center beige-content-block">
@@ -29,7 +29,7 @@
                     {{.Content}}
                     {{ end }}
                 </div>
-            </div>
+            </div> 
 
             <div class="grid-x align-center brown-content-block">
                 <div class="cell large-6">
@@ -38,6 +38,15 @@
                     {{ end }}
                 </div>
             </div>
+
+            <div class="grid-x align-center beige-content-block">
+                <div class="cell large-6">
+                    {{ with .Site.GetPage "/section" }}
+                    {{.Content}}
+                    {{ end }}
+                </div>
+            </div>
+
         </div>
         {{ partial "script_append.html" . }}
     </body>
