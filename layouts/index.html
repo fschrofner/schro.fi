@@ -47,6 +47,13 @@
                 </div>
             </div>
 
+            <div class="grid-x align-center" id="footer">
+                <div class="cell large-6">
+                    {{ with .Site.GetPage "/footer" }}
+                    {{.Content}}
+                    {{ end }}
+                </div>
+            </div>
         </div>
         {{ partial "script_append.html" . }}
     </body>
