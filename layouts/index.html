@@ -5,50 +5,47 @@
         {{ partial "script_prepend.html" . }}
     </head>
     <body>
-        <div class="grid-container full">
-            <div class="grid-x">
-                <div class="cell">
+        <div class="flex twelve grow">
+                <div>
                     <p id="website-title">Florian Schrofner</p>
                 </div>
             </div>
 
-            <div class="grid-x align-center" id="picture-holder">
+            <div class="flex twelve center" id="picture-holder">
                 <!-- scale image for different resolutions -->
                 {{ $picture := resources.Get "images/me.png"}}
                 {{ $sPicture := $picture.Resize "x100" }}
                 {{ $mPicture := $picture.Resize "x400" }}
                 {{ $lPicture := $picture.Resize "x600" }}
-                <!-- <img data-interchange="[{{$sPicture.Permalink}}, small], [{{$mPicture.Permalink}}, medium], [{{$lPicture.Permalink}}, large]"> -->
-                <!-- <img data-interchange="[http://localhost:1313/images/me.png, small], [http://localhost:1313/images/me.png, medium], [http://localhost:1313/images/me.png, large]"> -->
-                <img src="{{$lPicture.Permalink}}">
+                <img class="half third-1200" src="{{$picture.Permalink}}">
             </div>
 
-            <div class="grid-x align-center beige-content-block">
-                <div class="cell large-6">
+            <div class="flex twelve center beige-content-block">
+                <div class="four-fifth half-1200">
                     {{ with .Site.GetPage "/intro" }}
                     {{.Content}}
                     {{ end }}
                 </div>
             </div> 
 
-            <div class="grid-x align-center brown-content-block">
-                <div class="cell large-6">
+            <div class="flex twelve center brown-content-block">
+                <div class="four-fifth half-1200">
                     {{ with .Site.GetPage "/section" }}
                     {{.Content}}
                     {{ end }}
                 </div>
             </div>
 
-            <div class="grid-x align-center beige-content-block">
-                <div class="cell large-6">
+            <div class="flex twelve center beige-content-block">
+                <div class="four-fifth half-1200">
                     {{ with .Site.GetPage "/section" }}
                     {{.Content}}
                     {{ end }}
                 </div>
             </div>
 
-            <div class="grid-x align-center" id="footer">
-                <div class="cell large-6">
+            <div class="flex twelve center" id="footer">
+                <div class="four-fifth half-1200">
                     {{ with .Site.GetPage "/footer" }}
                     {{.Content}}
                     {{ end }}

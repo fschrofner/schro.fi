@@ -1,3 +1,6 @@
 baseURL = "https://schro.fi/"
 languageCode = "en-us"
 title = "Florian Schrofner"
+
+[markup.goldmark.renderer]
+unsafe = true
