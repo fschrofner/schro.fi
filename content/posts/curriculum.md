@@ -3,9 +3,9 @@ title: "Curriculum"
 date: 2020-07-10T15:14:38+02:00
 draft: false
 ---
-# Curriculum :scroll:
+# Curriculum <i class="em-svg em-scroll"></i>
 
-## Work :hammer:
+## Work <i class="em-svg em-hammer"></i>
 **11.2018 - now**  
 Android Developer  
 [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
@@ -27,7 +27,7 @@ Android Developer Intern
 [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 
-## Education :school:
+## Education <i class="em-svg em-school"></i>
 **Master of Science in Engineering**  
 Autonomous Forensic Security Analysis Framework for Android APKs  
 [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/) [Hagenberg, Austria]

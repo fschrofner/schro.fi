@@ -4,6 +4,9 @@
 {{ $picnic := "picnic-css/picnic.min.css" | absURL }}
 <link rel="stylesheet" href="{{ $picnic }}">
 
+{{ $emoji := "emoji-css/emoji.css" | absURL }}
+<link rel="stylesheet" href="{{ $emoji }}">
+
 <!-- convert main sass to css and add it to the html -->
 {{ $sass := resources.Get "sass/main.sass" }}
 {{ $cssOpts := (dict "targetPath" "css/main.css") }}
