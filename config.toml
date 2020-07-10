@@ -2,6 +2,7 @@ baseURL = "https://schro.fi/"
 languageCode = "en-us"
 title = "Florian Schrofner"
 enableEmoji = true
+theme = ["hugo-cloak-email"]
 
 [markup.goldmark.renderer]
 unsafe = true

@@ -17,7 +17,7 @@ Additionally, I recently started to excessively listen to podcasts, I found it t
 Anyway, in case my eyes can still take it, I also like to watch some interesting movies once in a while, you can check out my Mubi profile [here](https://mubi.com/users/7455172) (as soon as Font Awesome adds a Mubi icon I will move it to the other social links below :wink:)  
 
 Speaking of social networks, here are some links to the ones I've signed up for. Also find a link to my blog in the upper right corner :point_up:  
-In case you want to drop me a mail, just send it to florian at this domain, as long as you're not a bot :robot:
+In case you just want to drop me a good old fashioned mail, you can reach me {{< cloakemail address="florian@schro.fi" display="here">}}.
 
 <div id="social-links">
 <a href="https://mastodon.online/@schrofi"><i class="fab fa-mastodon fa-3x"></i></a>
