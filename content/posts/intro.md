@@ -1,16 +1,22 @@
 ---
 title: "Intro"
 date: 2019-08-17T15:48:34+02:00
-draft: true
+draft: false
 ---
 
-# Hi, it's me 👋
+# Hi, it's me :wave:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin diam nec nulla vestibulum fermentum. Aenean ullamcorper eget metus quis auctor. Proin at quam nec diam suscipit faucibus fringilla eget lacus. Nulla sollicitudin gravida tristique. Etiam tincidunt eget libero vel iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut congue ornare laoreet. Quisque malesuada ex efficitur ultricies aliquam. Sed facilisis velit ac nisl dapibus, in ultrices nisi faucibus. Curabitur tempor luctus imperdiet. Sed facilisis rutrum sapien ut feugiat.
+My name is Florian Schrofner, I'm an Android developer from beautiful Salzburg Austria.  
+Currently I craft wonderful apps at [LOOP](https://www.agentur-loop.com/) for clients like ADAC or MyClubs.  
+I specialized on Google's operating system as I appreciate its openness and flexibility, although both of which can sometimes be a headache during development :shrug:  
+On my workstations I run Linux for the same reasons, my distribution of choice being [Manjaro](https://manjaro.org/) as I became too lazy to setup Arch Linux from scratch every time.  
+Aside from coding and tinkering, I also enjoy doing sports, most importantly cycling, but you can find me in the gym as well from time to time or spot me going for a run in my neighbourhood.  
+Most of the time I like listening to music while doing so and I generally prefer to have some nice tracks playing while I'm working. Alas, describing my music taste would be too tricky, so better check out my Last.fm profile linked below yourself.  
+Additionally, I recently started to excessively listen to podcasts, I found it to be a nice way to get some entertainment without straining my eyes even more after a full day's work in front of the screen.  
+In case my eyes are still good, I also like to watch some interesting movies from time to time, you can check out my Mubi profile [here](https://mubi.com/users/7455172) (once Font Awesome adds a Mubi icon I will move it to the other social links below :wink:)
 
-Etiam et eros neque. Donec pellentesque bibendum ipsum, at convallis nisi imperdiet sit amet. Integer varius volutpat pretium. Morbi eu eros laoreet, tristique ligula in, facilisis sapien. Vivamus vehicula laoreet nisl sit amet hendrerit. Proin congue magna a pretium rhoncus. Suspendisse eleifend nibh sit amet augue convallis, condimentum fermentum elit lacinia. Nullam laoreet condimentum metus, ac fringilla sem tincidunt sit amet. Integer sapien lacus, volutpat eget elementum a, efficitur quis nulla. Aliquam a arcu ultricies, interdum ipsum in, malesuada tellus. Integer ligula ipsum, dictum et pulvinar et, efficitur id orci. Etiam egestas tellus non elit accumsan dignissim. Proin lacinia eget felis sit amet mattis. Aliquam vestibulum imperdiet orci, vitae semper nisl. Nunc suscipit pulvinar lectus vulputate accumsan. Nunc vel est vitae tellus pulvinar malesuada.
 
-Proin placerat ornare orci, id ornare lectus ultricies quis. Duis euismod tincidunt tellus, ut volutpat elit dictum feugiat. Nunc viverra enim vitae condimentum gravida. Cras sed sapien convallis, pharetra turpis sed, condimentum nunc. Integer mi dolor, faucibus vel diam nec, vulputate rutrum erat. Sed ut sem enim. Mauris blandit, massa in consectetur tincidunt, justo tortor fringilla velit, id rhoncus enim neque quis neque. Nunc porttitor arcu in risus mattis cursus.
-
-<i class="fab fa-mastodon"></i>
-<i class="fab fa-strava"></i>
+[<i class="fab fa-mastodon fa-3x"></i>](https://mastodon.online/@schrofi)
+[<i class="fab fa-github fa-3x"></i>](https://github.com/fschrofner)
+[<i class="fab fa-strava fa-3x"></i>](https://www.strava.com/athletes/schrofi)
+[<i class="fab fa-lastfm fa-3x"></i>](https://www.last.fm/user/FlowingKashmir)
