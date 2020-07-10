@@ -6,8 +6,15 @@
     </head>
     <body>
         <div class="flex twelve grow">
-                <div>
+                <div class="two-third">
                     <p id="website-title">Florian Schrofner</p>
+                </div>
+
+
+                <div class="third">
+                    <form>
+                        <button id="blog-button" class="pseudo" formaction="https://blog.schro.fi">Blog</button>
+                    </form>
                 </div>
             </div>
 
@@ -17,7 +24,7 @@
                 {{ $sPicture := $picture.Resize "x100" }}
                 {{ $mPicture := $picture.Resize "x400" }}
                 {{ $lPicture := $picture.Resize "x600" }}
-                <img class="half third-1200" src="{{$picture.Permalink}}">
+                <img class="two-third half-1000 third-1200" src="{{$picture.Permalink}}">
             </div>
 
             <div class="flex twelve center beige-content-block">

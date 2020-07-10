@@ -3,7 +3,7 @@ title: "Curriculum"
 date: 2020-07-10T15:14:38+02:00
 draft: false
 ---
-# Curriculum Vitae
+# Curriculum :scroll:
 
 ## Work :hammer:
 **11.2018 - now**  
