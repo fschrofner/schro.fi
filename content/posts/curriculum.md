@@ -7,19 +7,24 @@ draft: false
 
 ## Work :hammer:
 **11.2018 - now**  
-Android Developer @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+Android Developer  
+[LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 **10.2017 - 10.2018**  
-Software Developer & Technology Manager @ [SPAR ICS](https://www.spar-ics.com/) [Salzburg, Austria]
+Software Developer & Technology Manager  
+[SPAR ICS](https://www.spar-ics.com/) [Salzburg, Austria]
 
 **07.2016 - 10.2016**  
-Android Developer Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+Android Developer Intern  
+[LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 **02.2015 - 07.2015**  
-Android Developer Intern @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
+Android Developer Intern  
+[LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
 
 **06.2014 - 08.2014**  
-Android Developer Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+Android Developer Intern  
+[LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 
 ## Education :school:

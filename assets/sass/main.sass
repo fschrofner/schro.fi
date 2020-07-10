@@ -30,13 +30,7 @@ a
 a:hover
   color: $color-light-dark-brown
 
-a:link
-  color: $color-dark-brown
-
 a:active
-  color: $color-light-dark-brown
-
-a:visited
   color: $color-light-dark-brown
 
 #website-title
@@ -77,8 +71,12 @@ a:visited
 #social-links
   text-align: center
   margin-top: 60px
+  /* add some margin between the icons
   i
     margin: 0 20px
+    color: $color-light-dark-brown
+  i:hover
+    color: $color-dark-brown
 
 #picture-holder
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slope-size}))
