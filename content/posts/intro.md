@@ -20,7 +20,7 @@ Speaking of social networks, here are some links to the ones I've signed up for.
 In case you just want to drop me a good old fashioned mail, you can reach me {{< cloakemail address="florian@schro.fi" display="here">}}.
 
 <div id="social-links">
-<a rel="me" href="https://mastodon.online/@schrofi"><i class="fab fa-mastodon fa-3x"></i></a>
+<a rel="me" href="https://digitalcourage.social/@schrofi"><i class="fab fa-mastodon fa-3x"></i></a>
 <a href="https://github.com/fschrofner"><i class="fab fa-github fa-3x"></i></a>
 <a href="https://www.strava.com/athletes/schrofi"><i class="fab fa-strava fa-3x"></i></a>
 <a href="https://www.last.fm/user/FlowingKashmir"><i class="fab fa-lastfm fa-3x"></i></a>
